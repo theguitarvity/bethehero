@@ -1,12 +1,12 @@
 const express = require('express')
 
-const OngController = require('./controllers/OngController')
+const OngController = require('./http/controllers/OngController')
 
-const IncidentController = require('./controllers/IncidentController')
+const IncidentController = require('./http/controllers/IncidentController')
 
-const ProfileController = require('./controllers/ProfileController')
+const ProfileController = require('./http/controllers/ProfileController')
 
-const SessionController = require('./controllers/SessionController')
+const SessionController = require('./http/controllers/SessionController')
 
 const connection = require('./database/conection')
 const routes = express.Router()

@@ -1,4 +1,4 @@
-const connection = require('../database/conection')
+const connection = require('../../database/conection')
 const HTTP_BAD_REQUEST = 400
 module.exports = {
     async create(request, response){
