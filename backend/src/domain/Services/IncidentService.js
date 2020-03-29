@@ -1,6 +1,5 @@
 const IncidentRepository = require('../Repositories/IncidentRepository')
-const HTTP_NOT_AUTHORIZED = 401
-const HTTP_NO_CONTENT = 204
+
 module.exports = {
     async create(data){
         const ong_id = data.headers.authorization
