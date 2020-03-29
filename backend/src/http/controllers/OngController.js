@@ -1,6 +1,5 @@
 const service = require('../../domain/Services/OngService')
-module.exports = {
-    
+module.exports = {    
     async index(request, response){
         const ongs = await service.getAllOngs()
         
