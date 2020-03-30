@@ -6,8 +6,8 @@ module.exports = {
         return response.json(ongs)
     },
     async create(request, response){        
-        const ong = await service.createOng(request.body) 
+        const id = await service.createOng(request.body) 
 
-        return response.json({ong})
+        return response.json({id})
     }
 }
