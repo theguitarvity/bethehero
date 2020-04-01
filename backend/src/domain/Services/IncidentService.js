@@ -23,7 +23,7 @@ module.exports = {
         return { incidents, count }
 
     },
-    async deleteIncident(datas){
+    async deleteIncident(data){
         const { id } = data.params
         const ong_id = data.headers.authorization
         const incident = await IncidentRepository.getIncidentById(id)
