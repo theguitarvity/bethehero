@@ -6,11 +6,11 @@ Repositório referente ao código desenvolvido durante o omnistack em sua 11º v
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/theguitarvity/omnistack-beahero">
   
-  <a href="https://github.com/Rocketseat/semana-omnistack-11/commits/master">
+  <a href="https://github.com/theguitarvity/omnistack-beahero/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/theguitarvity/omnistack-beahero">
   </a>
 
-  <a href="https://github.com/Rocketseat/semana-omnistack-11/issues">
+  <a href="https://github.com/theguitarvity/omnistack-beahero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/theguitarvity/omnistack-beahero">
   </a>
 
