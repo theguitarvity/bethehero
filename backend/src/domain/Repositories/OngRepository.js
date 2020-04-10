@@ -8,5 +8,12 @@ module.exports ={
     async getAll(){
         const ongs = await connection(entity).select('*')
         return ongs
+    },
+    async getOngById(id){
+        const ong = await connection(entity)
+            .select('*')
+            .where('id', id)
+            .first()
+        return ong
     }
 }

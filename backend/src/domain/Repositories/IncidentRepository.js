@@ -22,6 +22,7 @@ module.exports = {
                         'ongs.uf'
                     ]
                 )
+            .orderBy('id', 'desc')
         return incidents
     },
     async count(){

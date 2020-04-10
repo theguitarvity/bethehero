@@ -1,9 +1,9 @@
-const crypto = require('crypto')
+const generateUniqueId = require('../../util/generateUniqueId')
 const OngReository = require('../Repositories/OngRepository')
 module.exports = {
     async createOng(data){
         const {name, email, whatsapp, city, uf} = data
-        const id = crypto.randomBytes(4).toString('HEX')
+        const id = generateUniqueId()
 
         const ong = await OngReository.create({
             id,
@@ -15,7 +15,6 @@ module.exports = {
         })
 
         return ong
-
     },
     async getAllOngs(){
         const ongs = await OngReository.getAll()
