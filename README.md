@@ -1,4 +1,4 @@
-# OmniStack 11 - Be The Hero
+# Be The Hero
 
 Repositório referente ao código desenvolvido durante o omnistack em sua 11º versão.
 <p align="center">
